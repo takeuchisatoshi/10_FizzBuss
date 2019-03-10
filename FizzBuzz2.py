@@ -2,15 +2,15 @@ print("1からNまでのFizzBuzz")
 
 number = int(input(f"1つの自然数を入れてね > "))
 
-for number in range(1, number + 1):
-    if number % 15 == 0:
+for N in range(1, number + 1):
+    if N % 15 == 0:
         print("FizzBuzz")
 
-    elif number % 3 == 0:
+    elif N % 3 == 0:
         print("Fizz")
 
-    elif number % 5 == 0:
+    elif N % 5 == 0:
         print("Buzz")
 
     else:
-        print(number)
+        print(N)
